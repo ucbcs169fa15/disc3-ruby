@@ -17,21 +17,17 @@ The line numbers in the error report will give you guidance as to which
 tests failed.
 
 
-2) Strings and Regular Expressions
+2) Strings
 -----------------------
 
-Check the documentation on String and Regexp as they could help tremendously with these exercises. :-)
 
 Define a method `hello(name)` that takes a string representing a name and returns the string "Hello, " concatenated with the name.
 
-Define a method `starts_with_consonant?(s)` that takes a string and returns true if it starts with a consonant and false otherwise. (For our purposes, a consonant is any letter other than A, E, I, O, U.) NOTE: be sure it works for both upper and lower case and for nonletters!
-
-Define a method `binary_multiple_of_4?(s)` that takes a string and returns true if the string represents a binary number that is a multiple of 4. NOTE: be sure it returns false if the string is not a valid binary number!
 
 
-You can find starter code in `lib/part1.rb`.
+You can find starter code in `lib/part2.rb`.
 To run the "sanity check" tests, run
-`rspec spec/part1_spec.rb` 
+`rspec spec/part2_spec.rb` 
 from the top-level directory of the homework distribution.
 The line numbers in the error report will give you guidance as to which
 tests failed.
