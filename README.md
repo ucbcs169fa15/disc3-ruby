@@ -6,7 +6,12 @@ Unlike Mac computers, Windows computers don't actually come with ruby. So lets d
 Steps
 
 1. Visit [this link](http://rubyinstaller.org/downloads/).
-2. Download Ruby 2.1.7
+2. Download ruby version 2.1.7
+3. Make sure during the installation to check "Add Ruby executables to PATH", like so:
+
+![12016635_10207918012575098_1146950380_n](https://cloud.githubusercontent.com/assets/5563367/9916186/03d9f952-5c70-11e5-9dd0-a6d85d9ab1ec.jpg)
+
+To double check if you have ruby installed, open your terminal and type in irb (ruby's repl) - it should load and you should be able to run ruby commands!
 
 Running Ruby Files
 ---
@@ -17,7 +22,7 @@ To run ruby files, simply type
 irb -r ./path/to/file
 ```
 
-This will load & run the file into the shell.
+This will load & run the file into the repl.
 
 1) Basic Ruby Practice
 -----------------------
